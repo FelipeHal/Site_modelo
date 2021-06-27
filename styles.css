@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #2f363c;
+    color: white;
+    font-family: Poppins;
+    padding: 30px 0;
+    text-align: center;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-flex;
+    width: 110px;
+}
+
+.logo {
+    width: 220px;
+}
