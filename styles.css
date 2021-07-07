@@ -37,3 +37,50 @@ ul li:last-child {
     padding: 0;
     width: 240px;
 }
+
+section {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.servicesoptions {
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+}
+
+div {
+    display:  block;
+}
+
+.imagem-services {
+    display: inline-block;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0ms;
+}
+.imagem-services:hover{
+    opacity: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h2 .subtitle {
+    font-size: 40px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h3 a:hover{
+    color: #ffb732;
+}
+
+.servicesdescriptions {
+    font-size: 14px;
+}
