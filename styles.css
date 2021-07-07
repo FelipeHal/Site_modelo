@@ -43,6 +43,13 @@ section {
     padding-bottom: 75px;
 }
 
+.container {
+    max-width: 100%;
+}
+.row{
+    font-family: 'Poppins', sans-serif;
+}
+
 .servicesoptions {
     list-style-type: none;
     justify-content: center;
