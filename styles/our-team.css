@@ -1,0 +1,34 @@
+.team .description {
+    padding: 0rem .1rem 1rem;
+}
+
+.team-member{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 1px;
+}
+
+.team-member img {
+    background-color: #f2f2f2;
+    border: 0;
+}
+
+.team-member .position {
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.team-member .role1 {
+    color: #ffb732;
+}
+
+.team-member .role2 {
+    color: #f77213;
+}
+
+.team-member .role3 {
+    color: #19a5aa;
+}
+
+.team-member .role4 {
+    color: #b91300;
+}
