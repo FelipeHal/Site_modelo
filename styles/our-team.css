@@ -10,6 +10,8 @@
 .team-member img {
     background-color: #f2f2f2;
     border: 0;
+    width: 100%;
+    height: auto;
 }
 
 .team-member .position {
