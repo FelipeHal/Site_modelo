@@ -1,0 +1,55 @@
+.servicesoptions {
+    background-color: #f1f1f1;
+}
+    .servicesoptions .title p, .servicesoptions .title h2 {
+        color: #2f363c;
+        text-transform: uppercase;
+    }
+    .servicesoptions .title p {
+        font-size: 20px;
+        letter-spacing: .3em;
+    }
+    .servicesoptions .title h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0 0 2rem;
+    }
+
+
+    .servicesoptions .content > * {
+        padding: 1.2rem 3rem 4.5rem;
+    }
+    .servicesoptions .content > div:hover img {
+        animation: scaleDisappear .5s;
+    }
+
+    .servicesoptions .content img {
+        max-width: 100%;
+    }
+
+    .servicesoptions .content h4 {
+        font-size: 20px;
+        margin-top: 2.4rem;
+        margin-bottom: .8rem;
+        text-transform: uppercase;
+    }
+        .servicesoptions .content h4 a {
+            color: #2f363c;
+            text-decoration: none;
+            transition: color .2s ease-in-out;
+        }
+        .servicesoptions .content h4 a:hover {
+            color: #ffb732;
+            transition: color .2s linear 0s;
+        }
+    .servicesoptions .content p {
+        font-size: 14px;
+        margin-bottom: 0;
+        color: gray;
+    }
+
+@keyframes scaleDisappear {
+    0% { opacity:1; transform:scale(1) }
+    60% { opacity:0; transform:scale(1.3) }
+    100% { opacity:1; transform:scale(1) }
+}

@@ -1,0 +1,30 @@
+header {
+    background-color: #2f363c;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 0;
+    text-align: center;
+}
+
+ul li {
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3.9px;
+    list-style-type: none;
+    padding: 0 23px;
+    height: 60px;
+}
+
+ul li:first-child {
+    padding-left: 0;
+}
+
+ul li:last-child {
+    padding-right: 0;
+}
+
+.logo {
+    padding: 0;
+    width: 240px;
+}
