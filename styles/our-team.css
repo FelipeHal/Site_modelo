@@ -34,3 +34,8 @@
 .team-member .role4 {
     color: #b91300;
 }
+
+.social-links a {
+    text-decoration: #6c757d;
+    margin-left: 1rem;
+}
