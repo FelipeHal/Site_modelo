@@ -7,12 +7,10 @@
 	border-radius: 1px;
 } */
 
-/* .team-member img {
+.team-member img {
     background-color: #f2f2f2;
-    border: none;
-    width: 100%;
-    height: auto;
-} */
+    
+}
 
 .team-member .position {
     text-transform:uppercase;
