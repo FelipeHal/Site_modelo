@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    //#carouselOurTem
+    
     $(".owl-carousel").owlCarousel({
         items: 4,
         loop: true,
@@ -21,5 +23,8 @@ $(document).ready(function(){
             },
         },
     });
+
+    //#carouselTestimonials
+    //
     
 })
