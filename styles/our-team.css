@@ -4,6 +4,10 @@
 
 .team-member{
     text-align: center;
+    width: 262px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
 }
 
 .team-member img {

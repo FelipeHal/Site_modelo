@@ -16,6 +16,12 @@
 
         <link rel="stylesheet" href="styles/owl.carousel.min.css">
         <link rel="stylesheet" href="styles/owl.theme.default.min.css">
+
+        <script src="js/jquery.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/script.js"></script>
     </head>
 
     <body>
@@ -69,6 +75,10 @@
       
         <section>[Our story]</section>
         <section>[A free consultation]</section>
+
+        <script>
+            console.log($(".owl-carousel").length);
+        </script>
 
         <!-- Desenvolver o Our team -->
         <section class="mainsections team">
@@ -265,37 +275,5 @@
         <section>[Footer]</section>
 
         <footer></footer>
-
-        <script src="js/jquery.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script>
-            $(document).ready(function(){
-                $(".owl-carousel").owlCarousel({
-                    items: 4,
-                    loop: true,
-                    dots: false,
-                    responsive: {
-                        0: {
-                            items:1,
-                        },
-                        485 : {
-                            items: 1,
-                        },
-                        728 : {
-                            items: 2,
-                        },
-                        960 : {
-                            items: 3,
-                        },
-                        1200 : {
-                            items: 4,
-                        },
-                    },
-                });
-                
-            })
-        </script>
     </body>
 </html>
