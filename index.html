@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="styles/our-services.css">
         <link rel="stylesheet" href="styles/our-team.css">
 
-        <link rel="stylesheet" href="styles/owl.carousel.min.css"
+        <link rel="stylesheet" href="styles/owl.carousel.min.css">
+        <link rel="stylesheet" href="styles/owl.theme.default.min.css">
     </head>
 
     <body>
@@ -80,7 +81,7 @@
                 </div>
                 
                 <div class="row content mt-5">
-                    <div class="owl-carousel">
+                    <div class="owl-carousel owl-theme">
                         <div class="ms-2 me-2">
                             <div class="card team-member">
                                 <img src="images/team/team01.png" class="card-img-top" alt="Director Esther Quinn">
@@ -271,7 +272,10 @@
         <script src="js/bootstrap.js"></script>
         <script>
             $(document).ready(function(){
-                $(".owl-carousel").owlCarousel();
+                $(".owl-carousel").owlCarousel({
+                    items: 4,
+                });
+                
             })
         </script>
     </body>
