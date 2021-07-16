@@ -10,11 +10,11 @@ section {
     padding-bottom: 3rem;
 }
 
-.mainsections .title p, .mainsections .title h2 {
+.mainsections .title .pretitle, .mainsections .title h2 {
     color: #2f363c;
     text-transform: uppercase;
 }
-.mainsections .title p {
+.mainsections .title .pretitle {
     font-size: 20px;
     letter-spacing: .3em;
 }
