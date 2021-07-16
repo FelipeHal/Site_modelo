@@ -1,5 +1,10 @@
 .story .content {
-    padding: 1.2rem 3rem 4.5rem;
+    padding: 0 3rem;
+    margin: 0 auto;
+}
+
+.story .pretitle {
+    padding-top: 40px;
 }
 
 .story-list li {
@@ -7,10 +12,6 @@
     font-size: 16px;
     font-weight: bolder;
     line-height: 2.5em;
-}
-
-.story-list li:first-child {
-    padding-top: 3rem;
 }
 
 .story-list li:before {
