@@ -1,8 +1,30 @@
+.story .content {
+    padding: 1.2rem 3rem 4.5rem;
+}
+
+.story-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
 .story-list li {
     list-style-type: none;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 2.5em;
+}
+
+.story-list li:first-child {
+    padding-top: 3rem;
 }
 
 .story-list li:before {
-    padding: -25px;
     content: "✓";
+    color: #f77213;
+    font-weight: bold;
+    padding-right: -25px;
+    position: relative;
+    left: -20px;
 }
