@@ -2,13 +2,6 @@
     padding: 1.2rem 3rem 4.5rem;
 }
 
-.story-image {
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0 auto;
-    vertical-align: middle;
-}
-
 .story-list li {
     list-style-type: none;
     font-size: 16px;
