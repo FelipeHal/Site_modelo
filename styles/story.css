@@ -1,0 +1,8 @@
+.story-list li {
+    list-style-type: none;
+}
+
+.story-list li:before {
+    padding: -25px;
+    content: "✓";
+}

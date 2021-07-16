@@ -30,12 +30,12 @@ section {
     margin-bottom: .8rem;
     text-transform: uppercase;
 }
-    .mainsections .content h4 a {
+    .mainsections .content a {
         color: #2f363c;
         text-decoration: none;
         transition: color .2s ease-in-out;
     }
-    .mainsections .content h4 a:hover {
+    .mainsections .content a:hover {
         color: #ffb732;
         transition: color .2s linear 0s;
     }
