@@ -1,3 +1,11 @@
-.financial-image {
-    width: auto;
+.mainsections.financial {
+    background-image: url("../images/slide01.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.mainsections.financial .carousel-item .pretext {
+    font-size: 5.5rem;
 }

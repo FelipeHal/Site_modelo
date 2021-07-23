@@ -5,7 +5,7 @@ body {
     line-height: 30px;
 }
 
-section {
+.section {
     padding-top: 5.9rem;
     padding-bottom: 3rem;
 }
@@ -14,6 +14,10 @@ section {
     color: #2f363c;
     text-transform: uppercase;
 }
+.mainsections.white .title .pretitle, .mainsections.white .title h2 {
+    color: white;
+}
+
 .mainsections .title .pretitle {
     font-size: 20px;
     letter-spacing: .3em;
@@ -45,3 +49,7 @@ section {
     margin-bottom: 0;
     color: gray;
 }
+
+    .mainsections .content .social-links a:hover {
+        color: #337ab7;
+    }

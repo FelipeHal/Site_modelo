@@ -35,7 +35,7 @@
     color: #b91300;
 }
 
-.social-links a {
-    text-decoration: #6c757d;
+.mainsections .content .social-links a {
+    color: #bebebe;
     margin-left: 1rem;
 }
