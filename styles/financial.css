@@ -9,3 +9,9 @@
 .mainsections.financial .carousel-item .pretext {
     font-size: 5.5rem;
 }
+
+.mainsections.financial::after {
+    content: "";
+    background: linear-gradient(to right,rgb(247, 114, 19), rgb(247, 114, 19) 33.3333%, rgb(255, 183, 50) 33.3334%, rgb(255, 183, 50) 66.6666%, rgb(25, 165, 170) 66.6667%);
+    height: 4px;
+}
