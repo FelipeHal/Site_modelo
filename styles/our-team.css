@@ -1,3 +1,5 @@
+
+
 .team .description {
     padding: 0rem .1rem 1rem;
 }
@@ -14,24 +16,25 @@
     background-color: #f2f2f2;
 }
 
-.team-member .position {
+.position {
     text-transform:uppercase;
+    letter-spacing: .3em;
     font-weight: bold;
 }
 
-.team-member .role1, .team-member .role5 {
+.role1, .role5 {
     color: #ffb732;
 }
 
-.team-member .role2, .team-member .role6 {
+.role2, .role6 {
     color: #f77213;
 }
 
-.team-member .role3, .team-member .role7 {
+.role3, .role7 {
     color: #19a5aa;
 }
 
-.team-member .role4, .team-member .role8 {
+.role4, .role8 {
     color: #b91300;
 }
 
