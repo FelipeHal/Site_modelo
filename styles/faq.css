@@ -1,0 +1,11 @@
+.accordion-button {
+    text-transform: uppercase;
+}
+
+.accordion-button:hover {
+    background-color: #ffb732;
+}
+
+.accordion-body {
+    border-style: none;
+}
