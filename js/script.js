@@ -30,7 +30,7 @@ $(document).ready(function(){
     $(".owl-two").owlCarousel({
         items: 1,
         loop: true,
-        dots: false,
+        dots: true,
         responsive: {
             0: {
                 items:1,
