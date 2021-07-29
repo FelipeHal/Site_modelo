@@ -6,8 +6,29 @@
     height: 100%;
 }
 
-.mainsections.financial .carousel-item .pretext {
+.mainsections.financial .container {
+    padding: 1.2rem 3rem 4.5rem;
+}
+
+.item.financial-slide {
+    color: #2f363c;
+    text-transform: uppercase;
+}
+
+.mainsections.financial .pretext {
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.mainsections.financial .text {
     font-size: 5.5rem;
+    font-weight: 700;
+}
+
+.mainsections.financial .financial-stitle {
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: .3em;
 }
 
 .mainsections.financial::after {
