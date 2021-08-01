@@ -4,8 +4,37 @@
 
 .accordion-button:hover {
     background-color: #ffb732;
+    border-color:#ffb732;
+    color: #fff;
+    transition: color .1s ease-in-out 0s;
 }
 
-.accordion-body {
-    border-style: none;
+.accordion-header {
+    border-radius: 0;
+}
+
+.accordion-body{
+    border: none;
+}
+
+.workflow h4 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.workflow li {
+    list-style-type: none;
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+    line-height: 2em;
+}
+
+.workflow li:before {
+    content: "✓";
+    color: #f77213;
+    font-weight: bold;
+    padding-right: -25px;
+    position: relative;
+    left: -20px;
 }

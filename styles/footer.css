@@ -1,0 +1,36 @@
+.mainsections.footer{
+    background: #2f363c url('../images/bottom.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainsections.footer .content{
+    padding: 1.2rem 3rem 4.5rem;
+}
+
+.mainsections.footer .content h4{
+    color: #fff;
+    font-size: 1.87rem;
+    font-weight: bold;
+}
+.mainsections.footer .content p{
+    color:#b3b3b3;
+}
+
+.mainsections.footer content .recent-posts{
+    color:#fff;
+}
+
+.recent-posts-list li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+    .recent-posts-list li img{
+        float: left;
+    }
+
+.footer-division{
+    padding: 10px 0;
+    text-align: center;
+}
