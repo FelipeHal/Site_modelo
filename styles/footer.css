@@ -17,6 +17,14 @@
     color:#b3b3b3;
 }
 
+.mainsections.footer .footer-list li{
+    list-style-type: none;
+}
+
+.mainsections.footer .footer-list li i{
+    color: #ffb732;
+}
+
 .mainsections.footer content .recent-posts{
     color:#fff;
 }

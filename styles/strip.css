@@ -1,3 +1,20 @@
 .mainsections.strip {
     background-color: #19a5aa;
 }
+
+.strip-icon{
+    font-size: 1.4rem;
+    background-size: auto;
+    line-height: 2.27em;
+}
+
+.form-strip {
+    padding: 2.75rem;
+    margin-bottom: 3.5rem;
+}
+
+.form-strip i {
+    position: absolute;
+    color: #19a5aa;
+    float: left;
+}

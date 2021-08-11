@@ -1,4 +1,4 @@
-.contact-info .contact {
+.mainsections .contact {
     margin-right: 0;
     margin-left: 0;
     vertical-align: middle;
@@ -8,3 +8,16 @@
     padding-left: 1.75rem;
     padding-right: 1.75rem;
 }
+
+.social-links {
+    margin-bottom: 0;
+}
+
+.mainsections .contact .info-data {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+/* .search i {
+    float:right;
+} */
