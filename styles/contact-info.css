@@ -1,29 +1,23 @@
 .mainsections.contact {
+    line-height: 2rem;
     padding-top: .9rem;
     padding-bottom: .9rem;
-    margin-right: 0;
-    margin-left: 0;
-    vertical-align: middle;
     font-size: .81rem;
 }
 
-.contact-info {
-    font-size: .81rem;
-}
-.info-data {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
+.social-links.contact-social {
+    margin-bottom: 0;
+    color: #808080;
 }
 
-.social-links {
+.social-links.contact-social i{
     margin-bottom: 0;
 }
 
-.mainsections .contact .info-data {
+.info-data i{
     padding-right: .5rem;
-    padding-left: .5rem;
 }
 
-/* .search .fa-search {
-    float:right;
-} */
+.info-data i{
+    padding-right: .5rem;
+}

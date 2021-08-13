@@ -9,43 +9,43 @@
     margin-bottom: 3.5rem;
 }
 
-.form-container .row:not(:first-child) {
-    padding-top: 2rem;
-}
+    .form-container .row:not(:first-child) {
+        padding-top: 2rem;
+    }
 
-.form-container .col {
-    position: relative;
-}
+    .form-container .col {
+        position: relative;
+    }
 
-.form-container input[type="text"], .form-container textarea {
-    font-family: poppins,sans-serif;
-    font-size: .9rem;
-    font-weight: 300;
-    padding: .6rem .6rem .6rem 2.8rem;
-    outline: none;
+    .form-container input[type="text"], .form-container textarea {
+        font-family: poppins,sans-serif;
+        font-size: .9rem;
+        font-weight: 300;
+        padding: .6rem .6rem .6rem 2.8rem;
+        outline: none;
 
-    width: 100%;
-}
+        width: 100%;
+    }
 
-.form-container textarea {
-    height: 7rem;
-}
+    .form-container textarea {
+        height: 7rem;
+    }
 
-.form-container i {
-    position: absolute;
-    left: 2rem;
-    top: 1.1rem;
-    color: rgb(179, 179, 179);
-}
+    .form-container i {
+        position: absolute;
+        left: 2rem;
+        top: 1.1rem;
+        color: rgb(179, 179, 179);
+    }
 
-.form-container input[type="submit"] {
-    background-color: #ffb732;
-    border: none;
-    border-radius: 0;
-    font-size: .8rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 0.9rem 3.35rem;
-    color: #FFF;
-    letter-spacing: 4px;
-}
+    .form-container input[type="submit"] {
+        background-color: #ffb732;
+        border: none;
+        border-radius: 0;
+        font-size: .8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 0.9rem 3.35rem;
+        color: #FFF;
+        letter-spacing: 4px;
+    }

@@ -53,3 +53,16 @@ body {
     .mainsections .content .social-links a:hover {
         color: #337ab7;
     }
+
+
+.mainsections .content .social-links .fa-facebook-f:hover {
+    color: #507cbe;
+}
+
+.mainsections .content .social-links .fa-twitter:hover {
+    color: #00abef;
+}
+
+.mainsections .content .social-links .fa-google:hover {
+    color: #d93e2d;
+}
