@@ -1,5 +1,5 @@
 .mainsections.footer{
-    background: #2f363c url('../images/bottom.jpg') no-repeat;
+    background: linear-gradient(0deg, rgba(47,54,60,0.3), rgba(47,54,60,0.3)), url('../images/bottom.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }

@@ -1,4 +1,5 @@
 .mainsections.strip {
+    line-height: 2rem;
     background-color: #19a5aa;
     padding-top: 1.87rem;
     padding-bottom: 1.87rem;
@@ -8,6 +9,8 @@
     font-size: 1.4rem;
     background-size: auto;
     line-height: 2.27em;
+    background-color: #fff;
+    border: .2 solid #fff;
 }
 
 .form-strip {
