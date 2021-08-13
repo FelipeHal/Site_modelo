@@ -1,7 +1,20 @@
 .mainsections.footer{
-    background: linear-gradient(0deg, rgba(47,54,60,0.3), rgba(47,54,60,0.3)), url('../images/bottom.jpg') no-repeat;
+    background: url('../images/bottom.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height:41rem;
+}
+
+.mainsections.footer .container{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(47,54,60,.9);
 }
 
 .mainsections.footer .content{
@@ -23,9 +36,10 @@
 
 .mainsections.footer .footer-list li i{
     color: #ffb732;
+    padding-right: .8rem;
 }
 
-.mainsections.footer content .recent-posts{
+.mainsections.footer .content .footer-list .footer-email, .mainsections.footer .content .recent-posts{
     color:#fff;
 }
 
@@ -36,6 +50,7 @@
 
     .recent-posts-list li img{
         float: left;
+        padding-right: .8rem;
     }
 
 .footer-division{
