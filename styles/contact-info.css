@@ -1,23 +1,22 @@
 .mainsections.contact {
     line-height: 2rem;
-    padding-top: .9rem;
-    padding-bottom: .9rem;
-    font-size: .81rem;
+    padding: .9rem 5rem;
 }
 
 .social-links.contact-social {
     margin-bottom: 0;
     color: #808080;
+    font-size: .9rem;
 }
 
-.social-links.contact-social i{
-    margin-bottom: 0;
+    .social-links.contact-social .fab{
+        color: #808080;
+    }
+
+.mainsections.contact .info-data, .mainsections.contact .search > * {
+    font-size: .81rem;
 }
 
-.info-data i{
-    padding-right: .5rem;
-}
-
-.info-data i{
-    padding-right: .5rem;
-}
+    .info-data i{
+        padding-right: .8rem;
+    }
