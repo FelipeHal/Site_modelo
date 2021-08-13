@@ -1,5 +1,7 @@
 .mainsections.strip {
     background-color: #19a5aa;
+    padding-top: 1.87rem;
+    padding-bottom: 1.87rem;
 }
 
 .strip-icon{
@@ -13,8 +15,8 @@
     margin-bottom: 3.5rem;
 }
 
-.form-strip i {
-    position: absolute;
+.form-strip .fa-envelope {
+    position: relative;
     color: #19a5aa;
     float: left;
 }
