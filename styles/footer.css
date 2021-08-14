@@ -1,4 +1,6 @@
 .mainsections.footer{
+    padding-top: -5.9rem;
+    padding-bottom: -3rem;
     background: url('../images/bottom.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,13 +14,13 @@
     position:absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width:fit-content;
     height: 100%;
     background: rgba(47,54,60,.9);
 }
 
 .mainsections.footer .content{
-    padding: 1.2rem 3rem 4.5rem;
+    padding: 1.2rem 3rem;
 }
 
 .mainsections.footer .content h4{
@@ -26,7 +28,7 @@
     font-size: 1.87rem;
     font-weight: bold;
 }
-.mainsections.footer .content p{
+.mainsections.footer .footer-background p{
     color:#b3b3b3;
 }
 
@@ -55,6 +57,26 @@
     }
 
 .footer-division{
-    padding: 10px 0;
+    padding: 180px 0 0;
     text-align: center;
+}
+
+.footer-division p{
+    color: #fff;
+}
+
+/* hr{
+    margin: 40px 0;
+}
+
+.hr1{
+    border: 0;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.6);
+} */
+
+.footer-division::before{
+    content: "";
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    padding-top: .5rem;
 }
